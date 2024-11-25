@@ -6,7 +6,7 @@ function processFile(input, filename) {
     open(input + File.separator + filename);
     title = getTitle();
     
-    channels = getInfo("channels.count");
+    getDimensions(width, height, channels, slices, frames);
     if (channels > 1) {  // Handle multi-channel images
         run("Stack to RGB");
         run("8-bit");
