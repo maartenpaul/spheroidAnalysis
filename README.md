@@ -17,6 +17,8 @@ This repository contains scripts for analysis of spheroids using [micro-sam](htt
   - Fiji script to convert label maps to Fiji ROIs and overlay images from a set of images.
 - Make_PDX_montages_.ijm
   - Fiji script to make a image montage of images in batch
+- randomImages.py
+  - Python script to extract random images from the data sets for training micro-sam
 - sam_finetuning_own.ipynb
   - Jupyter notebook which contains all code for fine-tuning of our spheroid segmentation models, run prediction on the data sets and accompanying script to extract measurements from
 - environment.yml
@@ -34,6 +36,7 @@ jupyter notebook
 For questions concerning the code please reach out to Maarten Paul (maarten.paul@gmail.com)
 
 ## Citation
+
 If you use this code in your research, please cite:
 
 ## License
