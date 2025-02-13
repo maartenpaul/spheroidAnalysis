@@ -10,8 +10,6 @@ This repository contains scripts for analysis of spheroids using [micro-sam](htt
 - CUDA-capable GPU (recommended)
 - Conda package manager
 
-
-
 ## Scripts and Files
 - convert_RGB_to8bit_.ijm
   - Fiji script used to preprocess data micro-sam which requires 8-bit images as input for the fine-tuning
