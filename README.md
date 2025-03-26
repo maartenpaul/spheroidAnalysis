@@ -19,8 +19,8 @@ This repository contains scripts for analysis of spheroids using [micro-sam](htt
   - Fiji script to make a image montage of images in batch
 - python_scripts/randomImages.py
   - Python script to extract random images from the data sets for training micro-sam
-- notebooks/sam_finetuning_own.ipynb
-  - Jupyter notebook which contains all code for fine-tuning of our spheroid segmentation models, run prediction on the data sets and accompanying script to extract measurements from
+- notebooks/sam_finetuning.ipynb
+  - Jupyter notebook which contains all code for fine-tuning of our spheroid segmentation models, run prediction on the data sets and accompanying script to extract measurements from. Based on the notebook at the micro-sam repository: <https://github.com/computational-cell-analytics/micro-sam/blob/master/notebooks/sam_finetuning.ipynb>.
 - environment.yml
   - Conda environment file used to run the jupyter notebook
 
@@ -38,6 +38,8 @@ For questions concerning the code please reach out to Maarten Paul (maarten.paul
 ## Citation
 
 If you use this code in your research, please cite:
+
+
 
 ## License
 This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
