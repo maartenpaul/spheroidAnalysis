@@ -11,15 +11,15 @@ This repository contains scripts for analysis of spheroids using [micro-sam](htt
 - Conda package manager
 
 ## Scripts and Files
-- convert_RGB_to8bit_.ijm
+- fiji_scripts/convert_RGB_to8bit_.ijm
   - Fiji script used to preprocess data micro-sam which requires 8-bit images as input for the fine-tuning
-- Make_overlays_labelMap_.ijm
+- fiji_scripts/Make_overlays_labelMap_.ijm
   - Fiji script to convert label maps to Fiji ROIs and overlay images from a set of images.
-- Make_PDX_montages_.ijm
+- fiji_scripts/Make_PDX_montages_.ijm
   - Fiji script to make a image montage of images in batch
-- randomImages.py
+- python_scripts/randomImages.py
   - Python script to extract random images from the data sets for training micro-sam
-- sam_finetuning_own.ipynb
+- notebooks/sam_finetuning_own.ipynb
   - Jupyter notebook which contains all code for fine-tuning of our spheroid segmentation models, run prediction on the data sets and accompanying script to extract measurements from
 - environment.yml
   - Conda environment file used to run the jupyter notebook
