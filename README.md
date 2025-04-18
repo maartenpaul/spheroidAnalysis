@@ -1,5 +1,9 @@
 # Spheroid Analysis with micro-sam
 
+
+[![DOI](https://zenodo.org/badge/832713235.svg)](https://doi.org/10.5281/zenodo.15239559)
+
+
 This repository contains scripts for analysis of spheroids using [micro-sam](https://github.com/computational-cell-analytics/micro-sam).
 
 ![Spheroids Microsam](images/spheroids_microsam.png)
